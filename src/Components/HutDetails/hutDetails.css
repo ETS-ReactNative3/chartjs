@@ -1,0 +1,63 @@
+.selected-hut-comp-cont{
+    background-image: url('../../images/hutDetailBG.jpg');
+    height: 88vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.selected-hut-comp-cont h1{
+    color: #fff;
+    margin-top: 0;
+    line-height: 4;
+    color: #000;
+    text-shadow: 1px 2px #000;
+}
+.selected-hut{
+    width: 85%;
+    margin: 0 auto;
+    text-align: left;
+}
+.detail-comp{
+    display: inline-flex;
+    width: 50%
+}
+.selected-hut-body{
+    width: 50%
+}
+.selected-hut-img{
+    width: 100%;
+    height: 215px;
+    box-shadow: 0 0 32px black;
+}
+.selected-hut-body button{
+    width: 100%;
+    padding: 8px 0;
+    margin-top: 25px;
+    outline: none;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-weight: 600;
+    background: #151a40;
+    font-size: 14px;
+    color: #fff;
+}
+.selected-hut-img:hover{
+    transition: 0.3s ease;
+    transform: scale(1.2);
+}
+.selected-hut-details-body{
+    width: 40%;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.selected-hut-name{
+    display: inline-block;
+    margin-top: 0;
+}
+.selected-hut-details{
+    display: inline-block;
+    margin-top: 0;
+}
+.font-color{
+    color: #fff;
+}

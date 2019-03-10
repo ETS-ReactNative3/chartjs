@@ -1,0 +1,30 @@
+{
+  "name": "login-signup",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chart.js": "^2.7.3",
+    "react": "^16.8.4",
+    "react-chartjs-2": "^2.7.4",
+    "react-dom": "^16.8.4",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest": "^23.6.0",
+    "react-addons-test-utils": "^15.6.2"
+  }
+}
